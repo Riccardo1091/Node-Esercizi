@@ -1,0 +1,19 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riccardo1091/Node-Esercizi.git"
+  },
+  "author": "Riccardo1091",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Riccardo1091/Node-Esercizi/issues"
+  },
+  "homepage": "https://github.com/Riccardo1091/Node-Esercizi#readme"
+}
