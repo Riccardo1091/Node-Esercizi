@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "start"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Riccardo1091/Node-Esercizi.git"
@@ -15,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/Riccardo1091/Node-Esercizi/issues"
   },
-  "homepage": "https://github.com/Riccardo1091/Node-Esercizi#readme"
+  "homepage": "https://github.com/Riccardo1091/Node-Esercizi#readme",
+  "dependencies": {
+    "figlet": "^1.5.2"
+  }
 }
