@@ -1,5 +1,5 @@
 const supertest = require("supertest");
-const createApp = require("./app.js");
+const createApp = require("./09-app.js");
 const app = createApp();
 const request = supertest(app);
 
@@ -9,5 +9,5 @@ test("GET /", async () => {
     .expect(200)
     .expect("Content-Type", "text/Html");
 
-  expect(response.text).toEqual({ location: "Earth" });
+  expect(response.text).toEqual("<h1>Test</h1>");
 });
